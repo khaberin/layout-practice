@@ -18,12 +18,15 @@ html {
 }
 
 /* type hierarchy- change for your project */
-h1 {
+.article h1 {
   font-size: 3em; /* 48px */
+    color:#00CC3E;
+    
 }
 
 h2 {
-  font-size: 2.25em /* 36px */
+  font-size: 2.25em; /* 36px */
+      text-align:center;
 }
 
 h3 {
@@ -40,37 +43,64 @@ h4 {
 ========================================== */
 
 header{
-  background-color: #cccccc; /* grey */
-  
-  
+  background-color: #00CC3E;
+    text-align: center;
+    color: white;
+    padding:10px 
 }
 
 footer{
-  background-color: #babaff; /* light-ish blue */
-  
-  
+  background-color: #ddd; /* light-ish blue */
+    text-align: center;
+    padding: 5px; 
 }
 
 .content-wrapper{
-  background-color:#fafa00; /* yellow */
-  
+  width:80%;
+  margin:0 auto;
   
 }
 
 .article{
-  background-color: #f0be86; /* kind of orange */
-  
-  
+  background-color: white;
+  float:left;
+  width:70%;
 }
 
 .sidebar{
-  background-color: #ffaecf; /* kind of pink */
-  
-  
+  background-color: #ddd;
+  float:left;
+  width:30%;
+
 }
 
+.featured-image{
+    float: right;
+    padding:20px;
+}
 
+.children{
+    float:left;
+    padding:15px
+}
 
+.PP{
+    width: 260px;
+    height:400px;    
+    float: center;
+}
+
+a{
+    color:black;
+}
+
+.sidebar h2{
+    color:navy;
+}
+.content-wrapper h1{
+    font-size: 35px;
+    
+}
 
 
 

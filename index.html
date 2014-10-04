@@ -6,11 +6,8 @@
     <title>PAGE TITLE</title> <!-- DON'T FORGET THE TITLE -->
 
     <!-- Link to CSS files -->
-    <!-- We are commenting out the "normalize" file.  We will remove this line during class so we can include this file.
     
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    
-    Also remove this line -->
     
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
@@ -18,12 +15,12 @@
     <!-- PLACE ALL OF YOUR PAGE CONTENT BELOW HERE -->
     
     <header>
-      <h1>Page Layout</h1>
-      <h2>With Sample Text from Project Gutenberg</h2>
+      <h1><em>Page Layout</em></h1>
+      <h2><em>With Sample Text from Project Gutenberg</em></h2>
     </header>
     
     
-    <div class="content-wrapper"><!-- this is our wrapper for our main page content area, including the sidebar! -->
+    <div class="content-wrapper clearfix"><!-- this is our wrapper for our main page content area, including the sidebar! -->
       <div class="article"><!-- this is our wrapper for the main page content -->
         <h1>Chapter 1: Peter Breaks Through</h1>
         <p>
@@ -64,7 +61,7 @@
           made any woman respect him.
         </p>
         <figure>
-          <img src="img/wendymichaeljohn.jpg" alt="The Darling Children">
+          <img src="img/wendymichaeljohn.jpg" alt="The Darling Children" class="children">
           <figcaption>The Darling children, as pictured in Walt Disney's <cite>Peter Pan</cite> (1953).</figcaption>
         </figure>
         <p>
@@ -87,7 +84,7 @@
         <p class="author-info">Sir James Matthew Barrie, 1st Baronet, OM (9 May 1860 – 19 June 1937) was a Scottish author and dramatist, best remembered today as the creator of Peter Pan. The child of a family of small-town weavers, he was educated in Scotland. He moved to London, where he developed a career as a novelist and playwright.</p>
         <p class="published">First Published in 1911</p>
         
-        <img src="img/Peter_Pan_1915_cover.jpg" alt="Peter Pan 1915 cover">
+        <img src="img/Peter_Pan_1915_cover.jpg" alt="Peter Pan 1915 cover" class="PP">
         
       </div><!-- this /div is for the sidebar -->
     </div><!-- this /div is for the .content-wrapper-->
